@@ -1,0 +1,32 @@
+# this is some alias defined by myself by myself
+
+# when edit this file 
+alias vba='vim ~/.bash_aliases'
+# the command line dictory of sdcv 
+alias d='test() { sdcv $1 | more ;}; test'
+#alias d='sdcv $1 '
+alias p='pwd'
+alias md='mkdir'
+alias cm='vim ~/myself/cmd/GoodSoft.text'
+alias c='clear'
+alias v='vim'
+alias sv='sudo vim'
+alias s='sudo'
+alias sai='sudo apt-get install'
+alias wechat='/opt/google/chrome/chrome --profile-directory=Default --app-id=ckhliaadcjmdjbhdlkpjkffidcifglba'
+alias qq='/opt/google/chrome/chrome --profile-directory=Default --app-id=cgjbcghkfiebpmpdjhbkdpoaaoiflhod'
+alias xxnet='/home/jimy/myself/soft/XX-Net-master/start & 2>/dev/null >/dev/null'
+alias rj='sudo /home/jimy/Documents/soft/rjsupplicant/rjsupplicant.sh   -sinternet -uM201572790 -p277469  '
+alias snr='sudo service network-manager restart'
+alias up='sudo apt-get update'
+alias xware='/home/jimy/myself/soft/XwareDesktop/xware/portal'
+alias xwares='/home/jimy/myself/soft/XwareDesktop/xware/portal -s' 
+alias vb='vim ~/.bashrc'
+alias vv='vim ~/.vimrc'
+alias rguake='~/myself/cmd/resetGuake.sh'
+alias psid='~/myself/cmd/psid.sh'
+alias ?='echo $?'
+alias dns='echo "nameserver 8.8.8.8" |sudo tee /etc/resolv.conf'
+alias vi='vim'
+# quick change a file to be runable
+alias exe='chmod u+x '
